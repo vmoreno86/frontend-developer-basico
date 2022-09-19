@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+            width: 300px;
+            height: 300px;
+            background: papayawhip;
+            border-radius: 20%;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+        }
+        .card p {
+            text-align: center;
+        }
+        .card p:nth-child(2) {
+            top:0;
+            margin:0;
+            font-size: 24px;
+            font-weight: 100;
+
+        }
+        .card p:nth-child(3) {
+            color:lightslategray;
+        }
+
+        #cara{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            top: 15px;
+            margin: 5px;
+            float: left;
+            border-radius: 50%;
+            border: 3px solid whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+        <img src="https://images.pexels.com/photos/265631/pexels-photo-265631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="teclado mecanico">
+        <p>Teclado - Keyboard</p>
+        <p>Hardware</p>
+        <img id="cara" src="https://images.pexels.com/photos/5611966/pexels-photo-5611966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cara"> 
+        </div>
+    </section>
+</body>
+</html>
